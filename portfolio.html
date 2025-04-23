@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">My Services</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#projects" style="--i:5">Projects</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home"id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Mehnish Saifi</h1>
+            <h3>I'm an <span class="text"></span></h3>
+            <p> I'm an Android and Web Developer.I have hands-on experience in android development tools such as Android Studio,Firebase and Jetpack components.with expertise in front-end and back-end development ,I strive to build solutions that are both visually appealing and highly functional.</p>
+            <div class="home-sci">
+                
+                <a href="https://www.linkedin.com/in/mehnish-saifi" target="_blank" style="--i:10"><i class="bx bxl-linkedin bx-md"></i></a>
+            </div>
+
+            <a href="#"class="btn-box">More About Me</a>
+
+            <div class="glowing-circle-wrapper">
+                <div class="glowing-circle">
+                    <img src="Mine.png">
+                </div>
+            </div>
+            
+        </div>
+        <span class="home-imgHover"></span>
+    
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Mine.png">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Android Developer</h4>
+            <p>I am a skilled Android Developer with <strong>2 years</strong> of experience in designing, 
+                developing, and maintaining mobile applications for the Android platform.
+                With expertise in Java and Kotlin, I specialize in creating user-friendly,
+                high-performance, and scalable apps tailored to meet user needs and business 
+                goals. I have a strong understanding of Android SDK, Jetpack components, and 
+                third-party libraries, with a proven track record of delivering apps with clean
+                architecture and responsive design. My development process includes efficient 
+                use of RESTful APIs, Firebase services, and modern tools like Git and Android Studio.</p>
+
+                <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My<span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#00eeff'></i>
+                        <h2>Android Developer</h2>
+                        <p>I am an Android developer passionate about creating impactful mobile applications
+                           that solve real-world challenges. With hands-on experience in Java and Android Studio, 
+                           I specialize in building scalable and user-friendly apps with robust functionality and 
+                           intuitive design.I enjoy working on projects that require innovative problem-solving, 
+                           clean code, and seamless integration of backend services. Whether collaborating with 
+                           teams or leading development efforts, I am committed to delivering high-quality solutions
+                           tailored to user and business needs.
+                        </p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff' ></i>
+                        <h2>Web Developer</h2>
+                        <p>I'm a  passionate web developer with [2 years] of experience in building dynamic, user-friendly, and
+                             efficient websites and web applications. I specialize in [front-end development and back-end development],
+                             with a strong focus on creating seamless user experiences.I have expertise in technologies like [HTML, CSS,
+                             JavaScript, React, Node.js and Python], and I'm always eager to explore and learn new tools to stay ahead in
+                             this ever-evolving field. Whether it's crafting responsive layouts, optimizing performance, or building robust
+                             backend systems, I love solving problems through code.I bring a keen eye for design and a passion for delivering 
+                             value through well-crafted digital solutions.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxl-apple' style='color:#00eeff' ></i>
+                        <h2>UI/UX Designer</h2>
+                        <p> I am a passionate UI Designer with a keen eye for detail and a commitment to creating intuitive 
+                          and visually appealing user experiences. I design web and mobile interfaces, I specialize in transforming 
+                          complex ideas into user-friendly designs that enhance functionality.Designing wireframes, prototypes, and
+                          high-fidelity visuals using tools like Figma, Sketch, and Adobe XD.Collaborating closely with developers 
+                          and stakeholders to ensure seamless implementation of designs.Conducting user research and usability testing
+                          to refine and optimize designs based on feedback.I thrive on crafting interfaces that balance creativity and
+                          usability, ensuring users have meaningful and delightful interactions.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="technical-skills-container" id="skills">
+      <h2 class="title">Technical Skills</h2>
+      <div class="skills">
+          <div class="card">
+              <h3>Languages</h3>
+              <ul>
+                  <li>HTML <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div></li>
+                  <li>CSS <div class="progress"><div class="progress-bar" style="width: 85%;">85%</div></div></li>
+                  <li>JavaScript <div class="progress"><div class="progress-bar" style="width: 70%;">70%</div></div></li>
+              </ul>
+          </div>
+          <div class="card">
+              <h3>Frameworks</h3>
+              <ul>
+                  <li>React <div class="progress"><div class="progress-bar" style="width: 70%;">70%</div></div></li>
+                  <li>Angular <div class="progress"><div class="progress-bar" style="width: 70%;">70%</div></div></li>
+                  <li>Bootstrap <div class="progress"><div class="progress-bar" style="width: 80%;">80%</div></div></li>
+              </ul>
+          </div>
+          <div class="card">
+              <h3>Tools</h3>
+              <ul>
+                  <li>Git <div class="progress"><div class="progress-bar" style="width: 75%;">75%</div></div></li>
+                  <li>VS Code <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div></li>
+                  <li>Figma <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <!-- Professional Skills Section -->
+  <section class="professional-skills">
+    <h2>Professional Skills</h2>
+    <div class="skills-container2">
+        <div class="skill2" data-percent="90">
+            <div class="circle">
+                <svg>
+                    <circle class="background" cx="50" cy="50" r="50"></circle>
+                    <circle class="progress" cx="50" cy="50" r="50"></circle>
+                </svg>
+            </div>
+            <div class="percentage">90%</div>
+            <p>Creativity</p>
+        </div>
+
+        <div class="skill2" data-percent="85">
+            <div class="circle">
+                <svg>
+                    <circle class="background" cx="50" cy="50" r="50"></circle>
+                    <circle class="progress" cx="50" cy="50" r="50"></circle>
+                </svg>
+            </div>
+            <div class="percentage">85%</div>
+            <p>Communication</p>
+        </div>
+
+        <div class="skill2" data-percent="75">
+            <div class="circle">
+                <svg>
+                    <circle class="background" cx="50" cy="50" r="50"></circle>
+                    <circle class="progress" cx="50" cy="50" r="50"></circle>
+                </svg>
+            </div>
+            <div class="percentage">75%</div>
+            <p>Problem Solving</p>
+        </div>
+
+        <div class="skill2" data-percent="85">
+            <div class="circle">
+                <svg>
+                    <circle class="background" cx="50" cy="50" r="50"></circle>
+                    <circle class="progress" cx="50" cy="50" r="50"></circle>
+                </svg>
+            </div>
+            <div class="percentage">85%</div>
+            <p>Teamwork</p>
+        </div>
+    </div>
+</section>
+
+
+<div class="container2"id="projects">
+    <h2>Latest<span>Project</span></h2>
+    <div class="projects2">
+        <div class="project-card">
+            <img src="ui.jpg" >
+            <div class="overlay">Innovative user interface and experience design.specialize in transforming 
+                complex ideas into user-friendly designs that enhance functionality.Designing wireframes, prototypes, and
+                high-fidelity visuals using tools like Figma, Sketch, and Adobe XD.Collaborating closely with developers 
+                and stakeholders to ensure seamless implementation of designs.Conducting user research and usability testing
+                to refine and optimize designs based on feedback.I thrive on crafting interfaces that balance creativity and
+                usability, ensuring users have meaningful and delightful interactions.</div>
+        </div>
+        <div class="project-card">
+            <img src="web.jpg" >
+            <div class="overlay">Modern and responsive web development solutions.I specialize in [front-end development and back-end development],
+                with a strong focus on creating seamless user experiences.I have expertise in technologies like [HTML, CSS,
+                JavaScript, React, Node.js and Python], and I'm always eager to explore and learn new tools to stay ahead in
+                this ever-evolving field. Whether it's crafting responsive layouts, optimizing performance, or building robust
+                backend systems, I love solving problems through code.I bring a keen eye for design and a passion for delivering 
+                value through well-crafted digital solutions.</div>
+        </div>
+        <div class="project-card">
+            <img src="app.jpg" >
+            <div class="overlay">Feature-rich mobile application development.passionate about creating 
+                impactful mobile applications that solve real-world challenges. With hands-on experience 
+                in Java and Android Studio, I specialize in building scalable and user-friendly apps with
+                 robust functionality and intuitive design.I enjoy working on projects that require innovative
+                 problem-solving, clean code, and seamless integration of backend services. Whether collaborating 
+                 with teams or leading development efforts, I am committed to delivering high-quality solutions
+                tailored to user and business needs.</div>
+        </div>
+    </div>
+</div>
+
+
+<section id="contact" >
+    <div class="container3">
+        <h2 class="sub-title3">Contact<span>Me</span></h2>
+
+        <!-- Basic Contact Form -->
+        <div class="contact-form">
+            <h3>Basic Contact Form</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button>Submit</button>
+        </div>
+
+        <!-- File Upload Form -->
+        <div class="contact-form">
+            <h3>Contact Form with File Upload</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="file">
+            <button>Upload & Submit</button>
+        </div>
+
+        <!-- AI Chatbot Contact Form -->
+        <div class="contact-form">
+            <h3>Chatbot-Assisted Contact Form</h3>
+            <div id="chat-window">
+                <div class="bot-message">Hi there! 👋 What's your name?</div>
+              </div>
+            
+              <div id="user-input">
+                <input type="text" id="chat-input" placeholder="Type your answer..." />
+                <button onclick="nextChatStep()">Send</button>
+              </div>
+            
+              <!-- Hidden form fields to collect data -->
+              <form id="chat-data" style="display:none;">
+                <input type="hidden" name="name" id="form-name">
+                <input type="hidden" name="email" id="form-email">
+                <input type="hidden" name="message" id="form-message">
+                <button type="submit">Submit</button>
+              </form>
+            
+        </div>
+
+        <!-- Minimalist Floating Form -->
+        <div class="floating-btn" onclick="toggleFloatingForm()">✉️</div>
+        <div class="contact-form floating-form" id="floating-form">
+            <h3>Minimalist Floating Form</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <button>Send</button>
+        </div>
+
+        <!-- Appointment Booking Form -->
+        <div class="contact-form">
+            <h3>Appointment Booking</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="date">
+            <input type="time">
+            <button>Book Now</button>
+        </div>
+
+        <!-- Gamified Contact Form -->
+        <div class="contact-form">
+            <h3>Gamified Contact Form</h3>
+            <form id="gamifiedForm" onsubmit="submitForm(event)">
+                <p>Answer this to continue: What is 5 + 3?</p>
+                <input type="number" id="quiz-answer" required>
+                <button type="button" onclick="checkAnswer()">Check</button>
+                <br><br>
+        
+                <!-- Additional Questions -->
+                <div id="extra-questions" style="display: none;">
+                    <div class="form-group">
+                        <label for="source">How did you hear about me?</label><br>
+                        <label><input type="radio" name="source" value="Google" required> Google</label><br>
+                        <label><input type="radio" name="source" value="LinkedIn"> LinkedIn</label><br>
+                        <label><input type="radio" name="source" value="Instagram"> Instagram</label><br>
+                        <label><input type="radio" name="source" value="Friend"> Friend</label>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="mood">What's your current mood?</label><br>
+                        <label><input type="radio" name="mood" value="😊" required> 😊</label>
+                        <label><input type="radio" name="mood" value="😎"> 😎</label>
+                        <label><input type="radio" name="mood" value="🤔"> 🤔</label>
+                        <label><input type="radio" name="mood" value="🔥"> 🔥</label>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="designRating">Rate the design of this portfolio (1-10):</label>
+                        <input type="range" id="designRating" name="designRating" min="1" max="10" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="oneWord">One word that describes you:</label>
+                        <input type="text" id="oneWord" name="oneWord" placeholder="Creative, Curious, etc." required>
+                    </div>
+        
+                    <button type="submit" id="submit-btn">Submit</button>
+                </div>
+            </form>
+            
+        </div>
+
+        <!-- Dark Mode Toggle -->
+        <button class="dark-mode-btn" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    </div>
+</section>
+
+
+    <script src="main.js">
+    (function(){
+    emailjs.init("HNEevHXTGlMW4KsGP");
+  })();
+
+
+    </script>
+</body>
+</html>
