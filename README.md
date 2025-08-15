@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website showcasing my projects, skills, and contact info.
 
-🔗 **Live Demo:** [https://mehnish01.github.io/portfolio](https://mehnish01.github.io/portfolio)
+🔗 **Live Demo:** [https://portfolio-seven-murex-89.vercel.app/]
 
 ## 🚀 Features
 - Responsive design
