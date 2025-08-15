@@ -15,9 +15,7 @@ Welcome to my personal portfolio website showcasing my projects, skills, and con
 - CSS
 - JavaScript
 
-## 📷 Preview
 
-![screenshot](./screenshot.png)
 
 ## 📥 Run Locally
 Clone the project:
