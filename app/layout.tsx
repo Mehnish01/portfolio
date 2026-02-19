@@ -30,8 +30,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="theme-color" content="#00d9ff" />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background text-foreground`}>
         {children}
       </body>
     </html>

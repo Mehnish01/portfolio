@@ -1,3 +1,5 @@
+'use client'
+
 import Navigation from '@/components/Navigation'
 import ScrollProgress from '@/components/ScrollProgress'
 import Hero from '@/components/Hero'
