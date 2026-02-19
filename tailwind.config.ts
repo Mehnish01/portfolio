@@ -18,6 +18,15 @@ const config: Config = {
         sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
         mono: ["var(--font-geist-mono)", "monospace"],
       },
+      keyframes: {
+        shimmer: {
+          "0%": { backgroundPosition: "200% center" },
+          "100%": { backgroundPosition: "-200% center" },
+        },
+      },
+      animation: {
+        shimmer: "shimmer 2s infinite",
+      },
     },
   },
   plugins: [],

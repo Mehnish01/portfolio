@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter, Space_Mono } from "next/font/google"
 import "./globals.css"
 
@@ -16,11 +16,12 @@ const geistMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Portfolio - Mehnish",
   description: "Creative developer and designer portfolio with interactive 3D experiences",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 }
 
 export default function RootLayout({
