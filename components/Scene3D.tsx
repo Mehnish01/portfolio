@@ -59,8 +59,8 @@ export default function Scene3D({ autoRotate = true, zoom = 1 }: Scene3DProps) {
       gl={{
         antialias: true,
         alpha: true,
-        precision: 'highp',
       }}
+      dpr={[1, 2]}
     >
       <Lights />
       <AnimatedSphere />

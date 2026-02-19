@@ -13,7 +13,7 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
 
     /* Next.js */
     "forceConsistentCasingInFileNames": true,

@@ -15,6 +15,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,6 +30,11 @@ body {
   color: #ffffff;
   font-family: var(--font-geist-sans);
   overflow-x: hidden;
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
 }
 
 /* Custom scrollbar */

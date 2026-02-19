@@ -1,27 +1,9 @@
-import type { Metadata, Viewport } from "next"
-import { Inter, Space_Mono } from "next/font/google"
+import type { Metadata } from "next"
 import "./globals.css"
-
-const geistSans = Inter({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-})
-
-const geistMono = Space_Mono({
-  variable: "--font-geist-mono",
-  weight: ["400", "700"],
-  subsets: ["latin"],
-})
 
 export const metadata: Metadata = {
   title: "Portfolio - Mehnish",
-  description: "Creative developer and designer portfolio with interactive 3D experiences",
-}
-
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 5,
+  description: "Creative developer and designer portfolio",
 }
 
 export default function RootLayout({
@@ -30,12 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="theme-color" content="#00d9ff" />
-      </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background text-foreground`}>
+    <html lang="en">
+      <body className="bg-background text-foreground">
         {children}
       </body>
     </html>
